@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/ivLogo"
-        android:layout_width="250dp"
-        android:layout_height="200dp"
+        android:layout_width="@dimen/default_250_dp"
+        android:layout_height="@dimen/default_200_dp"
         android:src="@drawable/jokenpokemon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
