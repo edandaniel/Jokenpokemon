@@ -4,4 +4,9 @@
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="criar_conta">Ainda não tem conta? Crie uma</string>
+    <string name="menu">Menu</string>
+    <string name="jogar">Jogar</string>
+    <string name="ranking">Ranking</string>
+    <string name="sobre">Sobre</string>
+    <string name="sair">Sair</string>
 </resources>

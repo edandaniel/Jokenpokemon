@@ -6,4 +6,70 @@
     android:layout_height="match_parent"
     tools:context=".view.MenuActivity">
 
+    <TextView
+        android:id="@+id/tvMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="@dimen/default_24_sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btJogar"
+        android:layout_width="346dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/jogar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMenu"
+        android:background="@drawable/botao_verde"/>
+
+    <Button
+        android:id="@+id/btRanking"
+        android:layout_width="346dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/ranking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btJogar"
+        android:background="@drawable/botao_amarelo"/>
+
+    <Button
+        android:id="@+id/btSobre"
+        android:layout_width="346dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/sobre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btRanking"
+        android:background="@drawable/botao_azul"/>
+
+    <Button
+        android:id="@+id/btSair"
+        android:layout_width="346dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/sair"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSobre"
+        android:background="@drawable/botao_roxo"/>
+
 </android.support.constraint.ConstraintLayout>
