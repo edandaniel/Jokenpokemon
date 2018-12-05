@@ -36,6 +36,7 @@ class LoginActivity : AppCompatActivity() {
                 }
             }
         }
+        btHack.setOnClickListener {goToGame()}
 
         btSignup.setOnClickListener {
             startActivityForResult(Intent(this, RegisterActivity::class.java), newUserRequestCode)
@@ -44,6 +45,13 @@ class LoginActivity : AppCompatActivity() {
 
     private fun goToHome() {
         val intent = Intent(this, MenuActivity::class.java)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+        startActivity(intent)
+        finish()
+    }
+
+    private fun goToGame() {
+        val intent = Intent(this, GameActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
         startActivity(intent)
         finish()

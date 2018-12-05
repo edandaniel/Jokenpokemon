@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_splash.*
 
 class SplashActivity : AppCompatActivity() {
 
-    private val TEMPO_AGUARDO_SPLASHSCREEN = 3500L
+    private val TEMPO_AGUARDO_SPLASHSCREEN = 1L//3500L
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
