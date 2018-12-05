@@ -68,6 +68,16 @@
                 android:textSize="@dimen/default_16_sp"
                 android:padding="@dimen/default_8_dp"/>
 
+            <TextView
+                android:id="@+id/btHack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/default_24_dp"
+                android:gravity="center"
+                android:padding="@dimen/default_8_dp"
+                android:text="HACKEAR"
+                android:textSize="@dimen/default_16_sp" />
+
         </LinearLayout>
 
     </RelativeLayout>
