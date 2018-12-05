@@ -25,16 +25,17 @@ class LoginActivity : AppCompatActivity() {
         }
 
         btLogin.setOnClickListener {
-            mAuth.signInWithEmailAndPassword(
-                    inputLoginEmail.text.toString(),
-                    inputLoginPassword.text.toString()
-            ).addOnCompleteListener {
-                if (it.isSuccessful) {
-                    goToHome()
-                } else {
-                    Toast.makeText(this@LoginActivity, it.exception?.message, Toast.LENGTH_SHORT).show()
-                }
-            }
+            goToHome()
+//            mAuth.signInWithEmailAndPassword(
+//                    inputLoginEmail.text.toString(),
+//                    inputLoginPassword.text.toString()
+//            ).addOnCompleteListener {
+//                if (it.isSuccessful) {
+//                    goToHome()
+//                } else {
+//                    Toast.makeText(this@LoginActivity, it.exception?.message, Toast.LENGTH_SHORT).show()
+//                }
+//            }
         }
 
         btSignup.setOnClickListener {
