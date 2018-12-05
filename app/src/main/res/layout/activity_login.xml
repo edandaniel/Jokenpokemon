@@ -56,7 +56,8 @@
                 android:layout_marginTop="@dimen/default_24_dp"
                 android:layout_marginBottom="@dimen/default_24_dp"
                 android:padding="@dimen/default_12_dp"
-                android:text="@string/login"/>
+                android:text="@string/login"
+                android:background="@drawable/botao_verde"/>
 
             <TextView android:id="@+id/btSignup"
                 android:layout_width="match_parent"
