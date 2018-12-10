@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Jokenpokemon</string>
+    <string name="app_name">JokenPokemon</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
@@ -9,4 +9,5 @@
     <string name="ranking">Ranking</string>
     <string name="sobre">Sobre</string>
     <string name="sair">Sair</string>
+    <string name="desenvolvimento_app">Disciplina de Android da MBA de Desenvolvimento Mobile da FIAP.</string>
 </resources>
