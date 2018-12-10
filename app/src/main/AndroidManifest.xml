@@ -18,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.LoginActivity" />
+        <activity android:name=".view.LoginActivity"
+            android:theme="@style/FullScreen"/>
         <activity android:name=".view.MenuActivity" />
         <activity android:name=".view.RegisterActivity" />
         <activity android:name=".view.GameActivity" />
