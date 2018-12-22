@@ -3,6 +3,7 @@ package com.edandaniel.jokenpokemon.view
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.edandaniel.jokenpokemon.R
 import kotlinx.android.synthetic.main.activity_menu.*
 
@@ -18,8 +19,14 @@ class MenuActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        btGameOver.setOnClickListener {
+            val intent = Intent(this, GameOverActivity::class.java)
+            startActivity(intent)
+        }
+
         btRanking.setOnClickListener {
             val intent = Intent(this, RankingActivity::class.java)
+            Log.e("Start Ranking Activity","Start Ranking Activity")
             startActivity(intent)
         }
 

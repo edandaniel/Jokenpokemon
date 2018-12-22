@@ -14,4 +14,7 @@
 
     <dimen name="default_16_sp">16sp</dimen>
     <dimen name="default_24_sp">24sp</dimen>
+
+    <dimen name="default_14_sp">12sp</dimen>
+    <dimen name="default_0_dp">0dp</dimen>
 </resources>

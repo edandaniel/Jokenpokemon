@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.edandaniel.jokenpokemon.view.RankingActivity">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_height="@dimen/default_24_sp"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/default_16_sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/jogador"
+        android:layout_marginStart="@dimen/default_8_dp"
+        android:layout_marginTop="@dimen/default_8_dp"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/txtValue"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/default_24_sp"
+        android:textSize="@dimen/default_14_sp"
+        android:gravity="center"
+        android:text="@string/pontos"
+        android:layout_marginStart="@dimen/default_8_dp"
+        android:layout_marginTop="@dimen/default_8_dp"
+        />
+</LinearLayout>

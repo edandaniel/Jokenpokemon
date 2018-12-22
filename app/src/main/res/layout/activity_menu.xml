@@ -72,4 +72,17 @@
         app:layout_constraintTop_toBottomOf="@+id/btSobre"
         android:background="@drawable/botao_roxo"/>
 
+    <Button
+        android:id="@+id/btGameOver"
+        android:layout_width="@dimen/default_346_dp"
+        android:layout_height="@dimen/defalut_51_dp"
+        android:layout_marginEnd="@dimen/default_24_dp"
+        android:layout_marginStart="@dimen/default_24_dp"
+        android:layout_marginTop="@dimen/default_16_dp"
+        android:text="GAME OVER PROVISORIO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSair"
+        android:background="@drawable/botao_roxo"/>
+
 </android.support.constraint.ConstraintLayout>
