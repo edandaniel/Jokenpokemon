@@ -26,7 +26,6 @@ class MenuActivity : AppCompatActivity() {
 
         btRanking.setOnClickListener {
             val intent = Intent(this, RankingActivity::class.java)
-            Log.e("Start Ranking Activity","Start Ranking Activity")
             startActivity(intent)
         }
 

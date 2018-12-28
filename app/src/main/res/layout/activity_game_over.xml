@@ -1,9 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.GameOverActivity">
+    android:fitsSystemWindows="true">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="@dimen/default_24_dp"
+        android:paddingLeft="@dimen/default_24_dp"
+        android:paddingRight="@dimen/default_24_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_24_dp"
+            android:text="@string/game_over"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="@dimen/default_8_dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_24_dp"
+            android:text="Sua pontuação final foi: "
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/default_14_sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="@dimen/default_8_dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_24_dp"
+            android:text="90"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="@dimen/default_8_dp"
+            android:id="@+id/txtRecord"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_24_dp"
+            android:text="Insira seu nome para registrarmos o seu novo recorde: "
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/default_14_sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="@dimen/default_8_dp"
+            />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Nome"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_24_dp"
+            android:layout_marginBottom="@dimen/default_24_dp"
+            android:padding="@dimen/default_12_dp"
+            android:text="Jogar novamente"
+            android:background="@drawable/botao_verde"/>
+
+        />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btMenuPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_24_dp"
+            android:padding="@dimen/default_12_dp"
+            android:text="Voltar para o Menu Principal"
+            android:background="@drawable/botao_verde"/>
+        />
+
+    </LinearLayout>
+</ScrollView>
