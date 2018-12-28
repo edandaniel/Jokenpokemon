@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
 import com.edandaniel.jokenpokemon.R
 import kotlinx.android.synthetic.main.activity_menu.*
 
@@ -35,8 +36,7 @@ class MenuActivity : AppCompatActivity() {
         }
 
         btSair.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
+            this.finish()
         }
     }
 }
