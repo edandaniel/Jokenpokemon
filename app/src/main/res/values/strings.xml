@@ -9,7 +9,9 @@
     <string name="ranking">Ranking</string>
     <string name="sobre">Sobre</string>
     <string name="sair">Sair</string>
-    <string name="desenvolvimento_app">Disciplina de Android da MBA de Desenvolvimento Mobile da FIAP.</string>
+    <string name="desenvolvimento_app">Disciplina de Android da MBA de Desenvolvimento Mobile da FIAP.
+                                        Daniel Silva/Jafer/Leandro</string>
+    <string name="app_versao">v1.0.0</string>
     <string name="adicionar_conta">Criar conta</string>
     <string name="pontos">Pontos</string>
     <string name="game_over">Game Over</string>
